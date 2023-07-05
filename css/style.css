@@ -7,8 +7,8 @@ body {
     font-weight: 500;
 }
 
-h1 {
-    font-size: 2rem;
+h1, h2, h3, h4, h5, h6 {
+    color: lightseagreen;
     font-weight: 900;
 }
 
@@ -16,7 +16,39 @@ a {
     color: lightseagreen;
 }
 
-img {
+.container {
+    border: 4px double black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.header-container img {
+    display: inline-block;
     height: auto;
     width: 250px;
+    vertical-align: middle;
+}
+
+.header-container h1{
+    display: inline-block;
+    margin: 0 0 0 20px;
+    vertical-align: middle;
+    font-size: 3rem;
+}
+
+.list-container ul, .list-container ol {
+    font-size: 1.2rem;
+}
+
+.list-container ul li, .list-container ol li {
+    margin-bottom: 20px;
+}
+
+.back-to-home {
+    display: block;
+    width: fit-content;
+    border: 4px double black;
+    padding: 15px;
+    margin: 20px auto;
+    font-weight: 900;
 }
